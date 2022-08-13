@@ -19,6 +19,16 @@ Workflow:
     1. Scrape lineup data from rotowire.com
     2. Prompted to see if you want to replace player in select lineup
     3. Calculate wins based on user selected lineup (does not have to be one that was changed)
+    
+Working Example:
+    1. Prompt 1: Do you want to replace a player in a lineup? Enter --> yes or no --> user enters "yes"
+    2. Prompt 2: Which team do you want to replace a player on? --> user enters "BOS"
+    3. Prompt 3: Who do you want to replace in the above lineup? --> user enters name in printed dataframe --> user enters name: Jarren Duran
+    4. Prompt 4: Who do you want to replace the player with? --> User enters MLB player: "Mike Trout" --> new dataframe prints with Trout in place of Duran
+    5. Prompt 5: Do you want to calculate the expected wins of a lineup? --> user enters "yes"
+    6. Prompt 6: What team would you like to look at? --> User enters 'BOS'
+    7. Output gives user expected winning % of today's lineup extrapolated over a full season
+    
 
 
 
